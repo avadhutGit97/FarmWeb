@@ -12,7 +12,7 @@ if (navToggle && siteNav) {
 document.getElementById('year').textContent = String(new Date().getFullYear());
 
 // Data loading and shop rendering
-const DATA_URL = '/workspace/data.json';
+const DATA_URL = 'data.json';
 let catalog = null;
 let activeCategoryId = 'vegetables';
 
