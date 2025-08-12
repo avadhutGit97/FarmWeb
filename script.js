@@ -42,7 +42,12 @@ function renderProducts(categoryId) {
 
     const media = document.createElement('div');
     media.className = 'card-media';
-    const bg = p.image || (categoryId === 'greenhouse' ? null : null);
+    const CATEGORY_IMAGE = {
+      vegetables: 'http://www.macklinsfarm.com/010308_0688_0613_lslp.jpg',
+      fruits: 'http://www.macklinsfarm.com/010308_0688_0008_lslp.jpg',
+      greenhouse: 'http://www.macklinsfarm.com/GREENHOUSE_003.jpg'
+    };
+    const bg = p.image || CATEGORY_IMAGE[categoryId];
     if (bg) media.style.backgroundImage = `url('${bg}')`;
     else media.style.background = 'linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02))';
 
@@ -121,7 +126,12 @@ function renderCart() {
     row.className = 'cart-item';
 
     const img = document.createElement('img');
-    img.src = item.image || 'https://dummyimage.com/100x100/1a3a23/ffffff&text=%F0%9F%8D%8E';
+    const CATEGORY_IMAGE = {
+      vegetables: 'http://www.macklinsfarm.com/010308_0688_0613_lslp.jpg',
+      fruits: 'http://www.macklinsfarm.com/010308_0688_0008_lslp.jpg',
+      greenhouse: 'http://www.macklinsfarm.com/GREENHOUSE_003.jpg'
+    };
+    img.src = item.image || CATEGORY_IMAGE[item.categoryId || 'vegetables'];
     img.alt = item.name;
 
     const info = document.createElement('div');

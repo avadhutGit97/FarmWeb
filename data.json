@@ -3,10 +3,11 @@
     {
       "id": "vegetables",
       "name": "Vegetables",
+      "image": "http://www.macklinsfarm.com/010308_0688_0613_lslp.jpg",
       "products": [
-        { "id": "asparagus", "name": "Asparagus", "price": 4.99, "unit": "bunch", "image": null },
-        { "id": "rhubarb", "name": "Rhubarb", "price": 3.99, "unit": "lb", "image": null },
-        { "id": "spinach", "name": "Spinach", "price": 2.49, "unit": "bunch", "image": null },
+        { "id": "asparagus", "name": "Asparagus", "price": 4.99, "unit": "bunch", "image": "http://www.macklinsfarm.com/030128_1834_0065_lslp.jpg" },
+        { "id": "rhubarb", "name": "Rhubarb", "price": 3.99, "unit": "lb", "image": "http://www.macklinsfarm.com/970801_0026_1097_oslp.jpg" },
+        { "id": "spinach", "name": "Spinach", "price": 2.49, "unit": "bunch", "image": "http://www.macklinsfarm.com/000816_0466_0015_nsls_391x600.jpg" },
         { "id": "strawberries", "name": "Strawberries", "price": 5.99, "unit": "quart", "image": null },
         { "id": "peas", "name": "Peas", "price": 2.99, "unit": "lb", "image": null },
         { "id": "new-potatoes", "name": "New Potatoes", "price": 1.49, "unit": "lb", "image": null },
@@ -28,9 +29,9 @@
         { "id": "cucumbers-pickling", "name": "Cucumbers (Pickling)", "price": 0.79, "unit": "ea", "image": null },
         { "id": "sweet-corn", "name": "Sweet Corn", "price": 0.75, "unit": "ear", "image": null },
         { "id": "cauliflower", "name": "Cauliflower", "price": 3.49, "unit": "head", "image": null },
-        { "id": "peppers-bell", "name": "Peppers (Bell)", "price": 1.49, "unit": "ea", "image": null },
-        { "id": "peppers-hot", "name": "Peppers (Hot)", "price": 1.29, "unit": "ea", "image": null },
-        { "id": "eggplant", "name": "Eggplant", "price": 1.99, "unit": "ea", "image": null },
+        { "id": "peppers-bell", "name": "Peppers (Bell)", "price": 1.49, "unit": "ea", "image": "http://www.macklinsfarm.com/010308_0688_0540_lslp.jpg" },
+        { "id": "peppers-hot", "name": "Peppers (Hot)", "price": 1.29, "unit": "ea", "image": "http://www.macklinsfarm.com/010308_0688_0613_lslp.jpg" },
+        { "id": "eggplant", "name": "Eggplant", "price": 1.99, "unit": "ea", "image": "http://www.macklinsfarm.com/000802_c757_0031_csls.jpg" },
         { "id": "tomatoes", "name": "Tomatoes", "price": 2.49, "unit": "lb", "image": null },
         { "id": "tomatoes-paste", "name": "Tomatoes (Paste)", "price": 2.99, "unit": "lb", "image": null },
         { "id": "squash", "name": "Squash", "price": 1.49, "unit": "lb", "image": null },
@@ -43,6 +44,7 @@
     {
       "id": "fruits",
       "name": "Fruits",
+      "image": "http://www.macklinsfarm.com/010308_0688_0008_lslp.jpg",
       "products": [
         { "id": "apples-vista-bella", "name": "Apples — Vista Bella", "price": 1.49, "unit": "lb", "image": null },
         { "id": "apples-jersey-mac", "name": "Apples — Jersey Mac", "price": 1.49, "unit": "lb", "image": null },
@@ -57,9 +59,9 @@
         { "id": "apples-golden-delicious", "name": "Apples — Golden Delicious", "price": 1.89, "unit": "lb", "image": null },
         { "id": "pears-bartlett", "name": "Pears — Bartlett", "price": 1.99, "unit": "lb", "image": null },
         { "id": "pears-bosc", "name": "Pears — Bosc", "price": 2.09, "unit": "lb", "image": null },
-        { "id": "peaches", "name": "Peaches", "price": 2.49, "unit": "lb", "image": null },
-        { "id": "plums-purple", "name": "Plums — Purple", "price": 2.49, "unit": "lb", "image": null },
-        { "id": "raspberries-fall", "name": "Raspberries (Fall)", "price": 5.99, "unit": "pint", "image": null },
+        { "id": "peaches", "name": "Peaches", "price": 2.49, "unit": "lb", "image": "http://www.macklinsfarm.com/images.jpg" },
+        { "id": "plums-purple", "name": "Plums — Purple", "price": 2.49, "unit": "lb", "image": "http://www.macklinsfarm.com/030129_1835_0029_lslp.jpg" },
+        { "id": "raspberries-fall", "name": "Raspberries (Fall)", "price": 5.99, "unit": "pint", "image": "http://www.macklinsfarm.com/publishImages/FRUIT~~element14.jpg" },
         { "id": "melons", "name": "Melons", "price": 3.99, "unit": "ea", "image": null }
       ]
     },
