@@ -130,6 +130,30 @@
       </div>
     </section>
 
+    <section id="shop" class="section">
+      <div class="container">
+        <h2 class="section-title">Shop</h2>
+        <div class="tabs">
+          <button class="tab active" data-category="vegetables">Vegetables</button>
+          <button class="tab" data-category="fruits">Fruits</button>
+          <button class="tab" data-category="greenhouse">Greenhouse</button>
+        </div>
+        <div id="products" class="cards"></div>
+      </div>
+    </section>
+
+    <aside class="cart" aria-label="Shopping cart" role="complementary">
+      <div class="cart-header">
+        <h3>Cart</h3>
+        <button id="cart-clear" class="icon-btn" title="Clear cart" aria-label="Clear cart">✕</button>
+      </div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total"><span>Total</span><strong id="cart-total">$0.00</strong></div>
+        <button id="checkout" class="btn btn-primary" disabled>Checkout</button>
+      </div>
+    </aside>
+
     <footer class="site-footer">
       <div class="container footer-inner">
         <p>© <span id="year"></span> Macklin's Farm • Greenhouse</p>

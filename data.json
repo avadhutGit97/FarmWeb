@@ -1,0 +1,78 @@
+{
+  "categories": [
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "products": [
+        { "id": "asparagus", "name": "Asparagus", "price": 4.99, "unit": "bunch", "image": null },
+        { "id": "rhubarb", "name": "Rhubarb", "price": 3.99, "unit": "lb", "image": null },
+        { "id": "spinach", "name": "Spinach", "price": 2.49, "unit": "bunch", "image": null },
+        { "id": "strawberries", "name": "Strawberries", "price": 5.99, "unit": "quart", "image": null },
+        { "id": "peas", "name": "Peas", "price": 2.99, "unit": "lb", "image": null },
+        { "id": "new-potatoes", "name": "New Potatoes", "price": 1.49, "unit": "lb", "image": null },
+        { "id": "beets-bunches", "name": "Beets (Bunches)", "price": 2.99, "unit": "bunch", "image": null },
+        { "id": "beets-baskets", "name": "Beets (Baskets)", "price": 6.99, "unit": "basket", "image": null },
+        { "id": "lettuce", "name": "Lettuce", "price": 1.99, "unit": "head", "image": null },
+        { "id": "swiss-chard", "name": "Swiss Chard", "price": 2.49, "unit": "bunch", "image": null },
+        { "id": "raspberries", "name": "Raspberries", "price": 5.99, "unit": "pint", "image": null },
+        { "id": "broccoli", "name": "Broccoli", "price": 2.29, "unit": "head", "image": null },
+        { "id": "carrots", "name": "Carrots", "price": 1.49, "unit": "lb", "image": null },
+        { "id": "onions", "name": "Onions", "price": 1.29, "unit": "lb", "image": null },
+        { "id": "onions-bunching", "name": "Onions (Bunching)", "price": 1.49, "unit": "bunch", "image": null },
+        { "id": "beans-green", "name": "Green Beans", "price": 2.49, "unit": "lb", "image": null },
+        { "id": "beans-yellow", "name": "Yellow Beans", "price": 2.49, "unit": "lb", "image": null },
+        { "id": "beans-roma", "name": "Roma Beans", "price": 2.99, "unit": "lb", "image": null },
+        { "id": "cabbage", "name": "Cabbage", "price": 2.19, "unit": "head", "image": null },
+        { "id": "dill", "name": "Dill", "price": 1.49, "unit": "bunch", "image": null },
+        { "id": "cucumbers", "name": "Cucumbers (Slicers)", "price": 0.99, "unit": "ea", "image": null },
+        { "id": "cucumbers-pickling", "name": "Cucumbers (Pickling)", "price": 0.79, "unit": "ea", "image": null },
+        { "id": "sweet-corn", "name": "Sweet Corn", "price": 0.75, "unit": "ear", "image": null },
+        { "id": "cauliflower", "name": "Cauliflower", "price": 3.49, "unit": "head", "image": null },
+        { "id": "peppers-bell", "name": "Peppers (Bell)", "price": 1.49, "unit": "ea", "image": null },
+        { "id": "peppers-hot", "name": "Peppers (Hot)", "price": 1.29, "unit": "ea", "image": null },
+        { "id": "eggplant", "name": "Eggplant", "price": 1.99, "unit": "ea", "image": null },
+        { "id": "tomatoes", "name": "Tomatoes", "price": 2.49, "unit": "lb", "image": null },
+        { "id": "tomatoes-paste", "name": "Tomatoes (Paste)", "price": 2.99, "unit": "lb", "image": null },
+        { "id": "squash", "name": "Squash", "price": 1.49, "unit": "lb", "image": null },
+        { "id": "dry-beans", "name": "Dry Beans", "price": 2.99, "unit": "lb", "image": null },
+        { "id": "leeks", "name": "Leeks", "price": 1.99, "unit": "bunch", "image": null },
+        { "id": "basil", "name": "Basil", "price": 1.49, "unit": "bunch", "image": null },
+        { "id": "zucchini", "name": "Zucchini", "price": 1.29, "unit": "lb", "image": null }
+      ]
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "products": [
+        { "id": "apples-vista-bella", "name": "Apples — Vista Bella", "price": 1.49, "unit": "lb", "image": null },
+        { "id": "apples-jersey-mac", "name": "Apples — Jersey Mac", "price": 1.49, "unit": "lb", "image": null },
+        { "id": "apples-paula-red", "name": "Apples — Paula Red", "price": 1.59, "unit": "lb", "image": null },
+        { "id": "apples-mcintosh", "name": "Apples — McIntosh", "price": 1.59, "unit": "lb", "image": null },
+        { "id": "apples-royal-gala", "name": "Apples — Royal Gala", "price": 1.79, "unit": "lb", "image": null },
+        { "id": "apples-cortland", "name": "Apples — Cortland", "price": 1.69, "unit": "lb", "image": null },
+        { "id": "apples-empire", "name": "Apples — Empire", "price": 1.79, "unit": "lb", "image": null },
+        { "id": "apples-honeycrisp", "name": "Apples — Honeycrisp", "price": 2.49, "unit": "lb", "image": null },
+        { "id": "apples-nova-spy", "name": "Apples — Nova Spy", "price": 1.99, "unit": "lb", "image": null },
+        { "id": "apples-jonagold", "name": "Apples — Jonagold", "price": 1.99, "unit": "lb", "image": null },
+        { "id": "apples-golden-delicious", "name": "Apples — Golden Delicious", "price": 1.89, "unit": "lb", "image": null },
+        { "id": "pears-bartlett", "name": "Pears — Bartlett", "price": 1.99, "unit": "lb", "image": null },
+        { "id": "pears-bosc", "name": "Pears — Bosc", "price": 2.09, "unit": "lb", "image": null },
+        { "id": "peaches", "name": "Peaches", "price": 2.49, "unit": "lb", "image": null },
+        { "id": "plums-purple", "name": "Plums — Purple", "price": 2.49, "unit": "lb", "image": null },
+        { "id": "raspberries-fall", "name": "Raspberries (Fall)", "price": 5.99, "unit": "pint", "image": null },
+        { "id": "melons", "name": "Melons", "price": 3.99, "unit": "ea", "image": null }
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "products": [
+        { "id": "carrion-cactus", "name": "Carrion Cactus", "price": 14.99, "unit": "pot", "image": "http://www.macklinsfarm.com/DSCN3554.JPG" },
+        { "id": "cali-callie-mango", "name": "Cali. Callie Mango", "price": 9.99, "unit": "pot", "image": "http://www.macklinsfarm.com/GREENHOUSE_001.jpg" },
+        { "id": "greenhouse-selection", "name": "Greenhouse Selection", "price": 12.99, "unit": "pot", "image": "http://www.macklinsfarm.com/GREENHOUSE_003.jpg" },
+        { "id": "tropical-foliage", "name": "Tropical Foliage", "price": 16.99, "unit": "pot", "image": "http://www.macklinsfarm.com/DSC_0271.JPG" },
+        { "id": "succulents-assorted", "name": "Succulents (Assorted)", "price": 5.99, "unit": "pot", "image": "http://www.macklinsfarm.com/DSC_0077C.JPG" }
+      ]
+    }
+  ]
+}
