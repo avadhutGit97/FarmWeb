@@ -21,8 +21,13 @@ const tabs = document.querySelectorAll('.tab');
 
 async function loadCatalog() {
   if (catalog) return catalog;
-  const res = await fetch(DATA_URL);
-  catalog = await res.json();
+  try {
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error('Fetch failed');
+    catalog = await res.json();
+  } catch (e) {
+    catalog = window.__CATALOG__ || { categories: [] };
+  }
   return catalog;
 }
 
