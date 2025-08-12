@@ -174,4 +174,13 @@ checkoutEl?.addEventListener('click', () => alert('Thank you! This is a demo che
   renderCart();
 })();
 
-tabs.forEach(btn => btn.addEventListener('click', () => renderProducts(btn.dataset.category)));
+tabs.forEach(btn => btn.addEventListener('click', (e) => { e.preventDefault(); renderProducts(btn.dataset.category); document.getElementById('shop')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
+
+// Header subnav links to switch categories
+const navCatLinks = document.querySelectorAll('[data-nav-category]');
+navCatLinks.forEach(link => link.addEventListener('click', (e) => {
+  e.preventDefault();
+  const cat = link.getAttribute('data-nav-category');
+  renderProducts(cat);
+  document.getElementById('shop')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}));

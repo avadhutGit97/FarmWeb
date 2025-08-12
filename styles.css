@@ -74,6 +74,10 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: 8px;
 }
 .site-nav a:hover { color: var(--text); background: rgba(255,255,255,0.06); }
+.site-nav li { position: relative; }
+.has-sub:hover .subnav { display: block; }
+.subnav { display: none; position: absolute; top: 100%; left: 0; background: rgba(13,25,17,.98); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 8px; min-width: 160px; box-shadow: var(--shadow); }
+.subnav a { display: block; padding: 8px 10px; white-space: nowrap; }
 
 .nav-toggle { display: none; }
 .nav-toggle { background: none; border: 0; padding: 8px; cursor: pointer; }
@@ -187,4 +191,7 @@ img { max-width: 100%; height: auto; display: block; }
   .site-nav ul { flex-direction: column; gap: 6px; }
   .nav-toggle { display: inline-block; }
   #products.cards { grid-template-columns: 1fr; }
+  .site-nav li { position: relative; }
+  .has-sub:hover .subnav { display: none; }
+  .has-sub .subnav { position: static; border: 0; background: transparent; box-shadow: none; padding: 0; }
 }

@@ -62,7 +62,9 @@
         { "id": "peaches", "name": "Peaches", "price": 2.49, "unit": "lb", "image": "http://www.macklinsfarm.com/images.jpg" },
         { "id": "plums-purple", "name": "Plums — Purple", "price": 2.49, "unit": "lb", "image": "http://www.macklinsfarm.com/030129_1835_0029_lslp.jpg" },
         { "id": "raspberries-fall", "name": "Raspberries (Fall)", "price": 5.99, "unit": "pint", "image": "http://www.macklinsfarm.com/publishImages/FRUIT~~element14.jpg" },
-        { "id": "melons", "name": "Melons", "price": 3.99, "unit": "ea", "image": null }
+        { "id": "melons", "name": "Melons", "price": 3.99, "unit": "ea", "image": null },
+        { "id": "blueberries", "name": "Blueberries", "price": 4.99, "unit": "pint", "image": null },
+        { "id": "cherries", "name": "Cherries", "price": 5.49, "unit": "lb", "image": null }
       ]
     },
     {
@@ -73,7 +75,9 @@
         { "id": "cali-callie-mango", "name": "Cali. Callie Mango", "price": 9.99, "unit": "pot", "image": "http://www.macklinsfarm.com/GREENHOUSE_001.jpg" },
         { "id": "greenhouse-selection", "name": "Greenhouse Selection", "price": 12.99, "unit": "pot", "image": "http://www.macklinsfarm.com/GREENHOUSE_003.jpg" },
         { "id": "tropical-foliage", "name": "Tropical Foliage", "price": 16.99, "unit": "pot", "image": "http://www.macklinsfarm.com/DSC_0271.JPG" },
-        { "id": "succulents-assorted", "name": "Succulents (Assorted)", "price": 5.99, "unit": "pot", "image": "http://www.macklinsfarm.com/DSC_0077C.JPG" }
+        { "id": "succulents-assorted", "name": "Succulents (Assorted)", "price": 5.99, "unit": "pot", "image": "http://www.macklinsfarm.com/DSC_0077C.JPG" },
+        { "id": "pothos", "name": "Pothos", "price": 7.99, "unit": "pot", "image": null },
+        { "id": "snake-plant", "name": "Snake Plant", "price": 11.99, "unit": "pot", "image": null }
       ]
     }
   ]
